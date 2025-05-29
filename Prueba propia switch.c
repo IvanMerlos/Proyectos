@@ -44,10 +44,5 @@ int main()
      printf("Fuera de rango\n");
      
     }
-     
-     
-     
-    
-
     return 0;
 }
