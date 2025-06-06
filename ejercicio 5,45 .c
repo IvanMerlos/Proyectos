@@ -6,20 +6,12 @@ int main(){
       printf("Ingrese c/de Filas: ");
       scanf("%d",&filas);
       
-    for(int i=1;i<=columnas;i++){
-      if(i%columnas == 0){
-       printf("%d\n",i);}
-       for(i){
-        
+      for(int i=1;i<=filas;i++){
+        for(int j=1;j<=columnas;j++){
+        printf(" %d %d ",i,j);
+        }
+        printf("\n");
        }
-    else
-    {
-     printf("%d",i);
-
-    }
-     
-    }
       
-       
-    return 0;
+ return 0;
 }
