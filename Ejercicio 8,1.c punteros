@@ -1,0 +1,17 @@
+#include <stdio.h>
+void ingresar_positivo(int *p){	
+	while(*p<0){
+		printf("Ingresa otra vez el valor: ");
+		scanf("%d",p);	
+	}
+	printf("El resultado %d\n",*p);
+}
+int main() {
+	 int a,*p;
+	 
+	printf("Ingrese un valor: ");
+		   scanf("%d",&a);
+		   p=&a;
+	 ingresar_positivo(p);
+	return 0;
+}
